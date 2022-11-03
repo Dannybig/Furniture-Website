@@ -1,0 +1,546 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0;
+    overflow: hidden;
+}
+
+/* Title */
+
+.title {
+    background: url(images/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+    height: 120vh;
+}
+nav {
+    width: 100%;
+    height: 80px;
+}
+.logo {
+    position: relative;
+    top: 15px;
+    margin-left: 20px;
+}
+nav ul {
+    float: right;
+}
+nav ul li {
+    display: inline;
+    line-height: 80px;
+    position: relative;
+    right: 200px;
+    margin: 0 20px;
+}
+nav ul li a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: large;
+}
+nav ul li a:hover {
+    color: orange;
+}
+.login-text a:hover {
+    color: orange;
+}
+.checkbtn {
+    color: black;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 20px;
+    display: none;
+}
+#check {
+    display: none;
+}
+.title-text {
+    text-align: center;
+    width: 40%;
+    margin: 100px auto;
+}
+.title-text p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 20px;
+    color: gray;
+}
+h1 {
+    font-family: sans-serif;
+    font-size: 6rem;
+    font-weight: lighter;
+}
+.contact-btn a{
+    color: white;
+}
+.contact-btn:hover {
+    background-color: black;
+}
+.contact-btn {
+    background-color: orange;
+    font-family: monospace;
+    font-size: x-large;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    top: 720px;
+    left: 600px;
+}
+
+/* SERVICES */
+
+.services {
+    margin: 100px auto;
+    text-align: center;
+    width: 80%;
+}
+.services h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+.services p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 4rem;
+    color: gray;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin: 100px auto 50px auto;
+}
+.grid-item {
+    text-align: center;
+    padding: 1rem;
+    line-height: 4.5rem;
+    margin: 0 1rem;
+}
+.grid-item h3 {
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 4rem;
+}
+.grid-item p {
+    font-size: large;
+    line-height: normal;
+}
+.read-btn {
+    background-color: orange;
+    font-family: monospace;
+    font-size: x-large;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2rem;
+    width: 10rem;
+}
+.read-btn a{
+    color: white;
+}
+.read-btn:hover {
+    background-color: black;
+}
+
+/* ABOUT */
+
+.about {
+    background-color: orange;
+    padding: 5rem;
+    margin-bottom: 5rem;
+}
+.sub-about {
+    width: 90%;
+    margin: auto;
+    padding: 5px;
+}
+.about-image {
+    flex-wrap: right;
+    position: relative;
+    float: right;
+    margin-left: 10px;
+}
+.sub-about h3 {
+    padding: 1rem;
+    color: white;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 8rem;
+    display: inline;
+}
+.sub-about p{
+    color: white;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    width: 50%;
+    margin: 3rem 0;
+}
+.about-read-btn {
+    background-color: black;
+    font-family: monospace;
+    font-size: x-large;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    margin-top: 2rem;
+    width: 10rem;   
+    color: white;
+}
+.about-read-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+/* FURNITURES */
+
+.furnitures {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.furnitures h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+.furnitures p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    line-height: 4rem;
+    color: gray;
+}
+.furniture-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin: 50px auto;
+    text-align: center;
+}
+.furniture-item {
+    padding: 0 10px;
+}
+.furniture-item h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: orange;
+    text-transform: uppercase;
+    margin-top: 3rem;
+}
+.furniture-item p{
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 2rem;
+    line-height: normal;
+    color: black;
+}
+
+/* WHO ARE WE */
+.wwa {
+    text-align: center;
+    background-image: url(images/bg-1.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 2rem;
+    margin: 5rem auto;
+}
+.wwa h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    font-weight: lighter;
+    line-height: 4rem;
+}
+.wwa h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+.wwa p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 3rem auto 0 auto;
+    width: 50%;
+}
+.wwa-read-btn {
+    background-color: black;
+    font-family: monospace;
+    font-size: x-large;
+    padding: 15px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    margin-top: 6rem;
+    width: 10rem;   
+    color: white;
+}
+.wwa-read-btn:hover {
+    background-color: white;
+    color: black;
+}
+.projects {
+    width: 90%;
+    text-align: center;
+    margin: 0 auto;
+}
+.projects h3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.projects p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 4rem;
+}
+.project-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 1rem;
+}
+.project-grid-item {
+    margin: 3rem auto;
+    transition: all 1s;
+}
+.project-grid-item:hover {
+    color: gray;
+    transform: scale(1.2);
+}
+
+/* TESTIMONIALS */
+
+.testimonials {
+    text-align: center;
+
+}
+.testimonials h3{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+.testimonials p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 4rem;
+}
+.client1{
+    width: 50%;
+    margin: 4em auto 2em 4em;
+    padding: 1em;
+    text-align: left;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.client1 p{
+    line-height: normal;
+    font-size: 1em;
+}
+.client1 h4 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+.client1 img {
+    float: left;
+    margin-right: 2em;
+}
+.client2{
+    width: 50%;
+    margin: 2em 4em 2em auto;
+    padding: 1em;
+    text-align: left;
+    border-width: 1px;
+    border-color: black;
+    border-style: solid;
+}
+.client2 h4 {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 1.5em;
+}
+.client2 p{
+    line-height: normal;
+    font-size: 1em;
+}
+.client2 img {
+    float: left;
+    margin-right: 2em;
+}
+
+/* CONTACT US */
+
+.contact {
+    background-image: url(images/contact-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding: 5em;
+}
+.contact h3 {
+    font-family: monospace;
+    font-size: 3rem;
+    position: relative;
+    left: 6rem;
+    top: 2rem;
+    font-weight: lighter;
+    color: white;
+}
+.sub-contact {
+    width: 90%;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 1em;
+}
+.sub-contact-item {
+    margin: 0 auto;
+    padding: 1em;
+}
+.sub-contact img {
+    width: 32em;
+}
+.sub-contact input {
+    display: block;
+    margin: 1em auto;
+    padding: 1em;
+    font-size: large;
+    border-radius: 5px;
+    width: 30em;
+    border-style: none;
+}
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: gray;
+    border-radius: 5px;
+}
+.sub-button {
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: x-large;
+    padding: 1rem;
+    color: grey;
+    background: none;
+    border-style: solid;
+    border-color: white;
+    width: 15%;
+    position: relative;
+    left:  6rem;
+}
+.contact button:hover {
+    border-color: white;
+    background-color: white;
+}
+
+/* INFORMATION */
+
+.info {
+    background-color: black;
+    color: white;
+    padding: 6em 3em;
+}
+.info-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 80%;
+    margin: 0 auto;
+}
+.info-grid-item {
+    padding: 3em;
+}
+.info-grid-item h3 {
+    font-family: monospace;
+    font-size: 2rem;
+    text-transform: capitalize;
+    margin-bottom: 0.5em;
+}
+.info-grid-item p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5em;
+}
+.submit {
+    width: 50%;
+    margin-right: 4rem;
+    border-style: solid;
+    border-width: 0 0 1px 0;
+    border-color: white;
+    float: right;
+}
+.submit input {
+    padding: 0.8em;
+    font-size: large;
+    font-family: monospace;
+    font-weight: bold;
+    border: none;
+    background: none;
+    width: 80%;
+    color: gray;
+}
+.submit input::after {
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+}
+.submit button {
+    border: none;
+    padding: 0.5rem;
+    background: none;
+    border: none;
+}
+.submit button a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    padding: 2rem;
+}
+.footer p {
+    font-family: monospace;
+    font-size: large;
+    margin-top: 1rem;
+}
+@media screen and (max-width: 850px) {
+    nav ul {
+        position: fixed;
+        width: 40%;
+        right: 50vh;
+        right: -100%;
+        transition: all 0.5s;
+    }
+    nav ul li {
+        display: block;
+        text-align: center;
+        line-height: 40px;
+        top: 50px;
+        font-weight: bold;
+    }
+    nav ul li a:hover {
+        background-color: rebeccapurple;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .checkbtn {
+        display: block
+    }
+    #check:checked ~ ul {
+        right: 0;
+    }
+}
