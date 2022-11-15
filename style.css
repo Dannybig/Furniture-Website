@@ -523,7 +523,7 @@ textarea {
     nav ul {
         position: fixed;
         width: 40%;
-        right: 50vh;
+        height: 50vh;
         right: -100%;
         transition: all 0.5s;
     }
