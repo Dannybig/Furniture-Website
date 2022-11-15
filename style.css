@@ -17,6 +17,7 @@
     background-size: cover;
     background-position: center;
     height: 120vh;
+    width: 100%;
 }
 nav {
     width: 100%;
@@ -81,6 +82,10 @@ h1 {
 .contact-btn:hover {
     background-color: black;
 }
+.cont {
+    width: 15%;
+    margin: 23rem auto 0 auto;
+}
 .contact-btn {
     background-color: orange;
     font-family: monospace;
@@ -89,9 +94,6 @@ h1 {
     text-transform: uppercase;
     border-radius: 5px;
     border: none;
-    position: absolute;
-    top: 720px;
-    left: 600px;
 }
 
 /* SERVICES */
@@ -542,5 +544,183 @@ textarea {
     }
     #check:checked ~ ul {
         right: 0;
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .services p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        line-height: 2rem;
+        color: gray;
+    }
+    .title {
+        background: url(images/banner-bg.png);
+        background-size: cover;
+        background-position: center;
+        height: 120vh;
+        width: 100%;
+    }
+    h1 {
+        font-size: 3rem;
+        line-height: 4rem;
+        margin: 1rem auto;
+    }
+    .title-text p {
+        color: darkgray;
+    }
+    .contact-btn {
+        background-color: orange;
+        font-family: monospace;
+        font-size: x-large;
+        padding: 15px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        border: none;
+        margin: 2rem auto;
+    }
+    .cont {
+        width: 30%;
+        margin: 14rem auto 0 auto;
+    }
+    .about {
+        background-color: orange;
+        padding: 5rem;
+        margin-bottom: 5rem;
+        width: 100%;
+    }
+    .sub-about {
+        width: 90%;
+        margin: auto;
+    }
+  
+    .sub-about h3 {
+        padding: 1rem;
+        color: white;
+        font-size: 3rem;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+    }
+    .sub-about p{
+        color: white;
+        font-size: large;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 1rem;
+        width: 100%;
+    }
+    .about-read-btn {
+        background-color: black;
+        font-family: monospace;
+        font-size: x-large;
+        padding: 15px;
+        text-transform: uppercase;
+        border-radius: 5px;
+        border: none;
+        margin-top: 2rem;
+        width: 10rem;   
+        color: white;
+    }
+    .about-read-btn:hover {
+        background-color: white;
+        color: black;
+    }
+    .about-image {
+        display: none;
+    }
+    .furniture-grid {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 50px auto;
+        text-align: center;
+        width: 100%;
+    }
+    .furniture-item {
+        width: 70%;
+        margin-top: 2rem;
+        text-align: center;
+    }
+    .furniture-item img {
+        width: 25rem;
+    }
+    .furnitures h3{
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: lighter;
+        font-size: 2.5rem;
+    }
+    .furnitures p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        color: gray;
+    }
+    .project-grid {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .testimonials h3 {
+        font-size: 1.7rem;
+    }
+    .testimonials p {
+        line-height: 1rem;
+        color: gray;
+    }
+    .contact {
+        background-image: url(images/contact-bg.png);
+        background-position: center;
+        background-size: cover;
+        padding: 5em;
+    }
+    .contact h3 {
+        font-family: monospace;
+        font-size: 2rem;
+        position: relative;
+        left: 6rem;
+        top: 1rem;
+        font-weight: lighter;
+        color: white;
+    }
+    .sub-contact {
+        width: 100%;
+        margin: 1em auto;
+        padding: 1em;
+    }
+    .sub-contact img {
+        display: none;
+    }
+    .sub-contact input {
+        display: block;
+        margin: 1em 0 1rem ;
+        padding: 1em;
+        font-size: large;
+        border-radius: 5px;
+        width: 20em;
+        border-style: none;
+    }
+    textarea {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: large;
+        color: gray;
+        border-radius: 5px;
+    }
+    .sub-button {
+        text-transform: uppercase;
+        font-family: monospace;
+        font-size: x-large;
+        padding: 1rem;
+        color: grey;
+        background: none;
+        border-style: solid;
+        border-color: white;
+        width: 25%;
+        position: relative;
+        left:  6rem;
+    }
+    .contact button:hover {
+        border-color: white;
+        background-color: white;
+    }
+    .info-grid {
+        display: grid;
+        grid-template-columns: auto;
     }
 }
